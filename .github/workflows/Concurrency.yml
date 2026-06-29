@@ -1,0 +1,26 @@
+name: Concurrency test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  t1: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t2: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t3: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t4: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t5: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t6: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t7: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t8: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t9: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t10: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t11: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t12: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t13: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t14: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t15: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t16: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t17: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t18: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t19: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
+  t20: { runs-on: windows-latest, steps: [{ run: sleep 60 }] }
